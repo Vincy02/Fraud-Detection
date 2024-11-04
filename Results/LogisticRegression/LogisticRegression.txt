@@ -1,0 +1,12 @@
+> Time elapsed (fit): 509.5120458602905
+> Time elapsed (predict): 0.43411707878112793
+> Time elapsed (calc scores): 0.020107507705688477
+Best Hyperparameters: {'C': np.float64(2.922291401980419), 'max_iter': 15000, 'penalty': 'l2'}
+Accuracy (TEST / EVAL): 0.8911168365632351
+Precision (TEST / EVAL): 0.21976563511588762
+Recall (TEST / EVAL): 0.4598970329223682
+F1 (TEST / EVAL): 0.29741096070442896
+Accuracy (Train):  0.7691096663475037 	|	Accuracy (Test-set CV):  0.7691119909286499 	(Best Model)
+Standard Deviation: 0.0001094890681354 	|	Variance: 1.1987856041158264e-08 	(Train-Set | Best Model)
+Standard Deviation: 0.0005510732870795 	|	Variance: 3.036817677326051e-07 	(Test-Set CV | Best Model)
+Difference Mean Score (Test CV - Train) - best model: 2.3245811462402344e-06

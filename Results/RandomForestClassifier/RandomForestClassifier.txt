@@ -1,0 +1,12 @@
+> Time elapsed (fit): 1685.6472256183624
+> Time elapsed (predict): 0.9321925640106201
+> Time elapsed (calc scores): 0.0443112850189209
+Best Hyperparameters: {'max_depth': 11, 'min_samples_leaf': 4, 'min_samples_split': 5, 'n_estimators': 280}
+Accuracy (TEST / EVAL): 0.9070473979177911
+Precision (TEST / EVAL): 0.24285888920581883
+Recall (TEST / EVAL): 0.40373933071399537
+F1 (TEST / EVAL): 0.3032847365341068
+Accuracy (Train):  0.797596663236618 	|	Accuracy (Test-set CV):  0.7967250049114227 	(Best Model)
+Standard Deviation: 0.0006940271013701 	|	Variance: 4.81673617436183e-07 		(Train-Set | Best Model)
+Standard Deviation: 0.0005744156634498 	|	Variance: 3.299533544164739e-07 	(Test-Set CV | Best Model)
+Difference Mean Score (Test CV - Train) - best model: -0.0008716583251953125

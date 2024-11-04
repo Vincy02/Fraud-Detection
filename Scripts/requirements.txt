@@ -1,8 +1,0 @@
-numpy
-seaborn
-scikit-learn
-matplotlib
-pandas
-inflection
-pyswip==0.2.09
-kneed

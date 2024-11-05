@@ -1,6 +1,6 @@
 # Fraud-Detection
-Il modello proposto in questo progetto ha lo scopo di predire le frodi all'interno di un contesto specifico, come transazioni finanziarie, acquisti online o interazioni tra clienti e fornitori.
-<br>Utilizzando un approccio basato su tecniche di machine learning, il modello analizza variabili e indicatori storici per identificare comportamenti sospetti e anomalie nei dati, permettendo così un intervento tempestivo e mirato.
+Il modello proposto in questo progetto ha lo scopo di predire le frodi all'interno di un contesto specifico: acquisti online.
+<br>Utilizzando un approccio basato su tecniche di machine learning, i modelli viluppati analizzano le features identificate nel dataset utilizzato per identificare comportamenti sospetti e anomalie nei dati, permettendo così un intervento tempestivo e mirato, identificando possibili frodi.
 
 <p align="center">
     <img src="https://i.imgur.com/zSNY5tM.png" alt="hacker" height="400"/>

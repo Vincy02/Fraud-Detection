@@ -135,3 +135,6 @@ from supervisedLearning import randomForest, gradientBoosting, logisticRegressio
 randomForest(X_train, X_test, y_train, y_test)
 gradientBoosting(X_train, X_test, y_train, y_test)
 logisticRegression(X_train, X_test, y_train, y_test)
+
+from neuralNetwork import NNBinaryClassifier
+NNBinaryClassifier(X_train, X_test, y_train, y_test)

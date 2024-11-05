@@ -10,17 +10,7 @@ Il modello proposto in questo progetto ha lo scopo di predire le frodi all'inter
 L'intero progetto è stato sviluppato su ambiente linux (Ubuntu 22.04.5), il che ha permesso di lavorare interamente con GPU NVIDIA ove possibile.
 <br>La maggior parte degli algoritmi usati dunque nel progetto ha sfruttato la potenza di calcolo della scheda grafica NVIDIA (RTX 3060) e qual'ora, dunque si volesse _runnare_ il progetto in locale si dovrebbe avere a disposizione un ambiente che lo possa permettere.
 <br>In alternativa sarebbe possibile covertire il codice, per farlo girare su CPU (sconsigliato).
-<br>Per fare ció, basterebbe installare le seguenti librerie ed sostituire gli eventuali usi di cuML e Dask ML con algoritmi della libreria scikit-learn (CPU based).
-```
-numpy
-seaborn
-scikit-learn
-matplotlib
-pandas
-inflection
-pyswip==0.2.09
-kneed
-```
+<br>Per fare ció, basterebbe sostituire gli eventuali usi di cuML e Dask ML con algoritmi della libreria scikit-learn (CPU based).
 
 ## Set up ambiente di lavoro - LINUX
 
@@ -55,6 +45,4 @@ sudo apt-get install libopenblas-dev liblapack-dev -y
 ```
 pip install -r requirements.txt
 ```
-9. Se eventualmente il processo di installazione dei requirements fallisce è possibile scaricare le libreria citate nel paragrafo precedente + ```dask-ml```.<br>
-Per eventualmente, osservare le prestazioni della GPU è possibile scaricare la libreria ```nvitop```.
-10. Installare e spostare nella cartella root del progetto la cartella _./Data_ dal seguente link: [LINK](https://mega.nz/folder/oow1CAZC#dfN2ThUn8A8jCii7q9526Q)
+9. Installare e spostare nella cartella root del progetto la cartella _./Data_ dal seguente link: [LINK](https://mega.nz/folder/oow1CAZC#dfN2ThUn8A8jCii7q9526Q)

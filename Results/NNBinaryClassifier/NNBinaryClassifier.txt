@@ -1,0 +1,10 @@
+Best Model (based on highest test accuracy):
+Epoch: 5.0000
+Train Accuracy: 0.8165
+Test Accuracy: 0.9183
+Train Precision: 0.8350
+Test Precision: 0.4140
+Train Recall: 0.5271
+Test Recall: 0.5000
+Train F1 Score: 0.6244
+Test F1 Score: 0.4452
